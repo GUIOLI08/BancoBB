@@ -12,13 +12,6 @@ O Banco Bora Bill (BB) é um exercício prático de desenvolvimento web, focado 
 - **CSS** → Estilização e responsividade
 - **JavaScript** → Interatividade e manipulação dinâmica da interface
 
-## 📌 Recursos do Layout
-
-- Página inicial com informações do banco
-- Seções de login e cadastro
-- Simulação de conta bancária com saldo fictício
-- Estilos modernos e responsivos
-
 ## 🔧 Status do Projeto
 
 Este é um **projeto em desenvolvimento**, sem funcionalidades reais. O objetivo principal é o aprendizado e aperfeiçoamento das tecnologias web.
@@ -31,13 +24,9 @@ Caso eu queira expandir o projeto, algumas ideias incluem:
 - Implementar animações com CSS e JavaScript
 - Simular operações bancárias básicas
 
-## 🎨 Screenshots
-
-(Adicione imagens do seu layout aqui)
-
 ## 📂 Como Executar
 
-Basta abrir o arquivo `index.html` em um navegador para visualizar o layout!
+Basta copiar e colar a URL no seu navegador: 
 
 ---
 

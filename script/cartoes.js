@@ -19,25 +19,25 @@ botao.addEventListener("mouseleave", function(){
 
 botaoDashboard.addEventListener("click", () => {
     console.log("Botão de redirecionamento acionado com sucesso!.");
-    window.location.href = "../pages/dashboard.html";
+    window.location.href = "../docs/dashboard.html";
 });
 botaoPayment.addEventListener("click", () => {
     console.log("Botão de redirecionamento acionado com sucesso!.");
-    window.location.href = "../pages/pagamento.html";
+    window.location.href = "../docs/pagamento.html";
 });
 botaoCards.addEventListener("click", () => {
     console.log("Botão de redirecionamento acionado com sucesso!.");
-    window.location.href = "../pages/cartoes.html";
+    window.location.href = "../docs/cartoes.html";
 });
 botaoSettings.addEventListener("click", () => {
     console.log("Botão de redirecionamento acionado com sucesso!.");
-    window.location.href = "../pages/configuracoes.html";
+    window.location.href = "../docs/configuracoes.html";
 });
 botaoAccount.addEventListener("click", () => {
     console.log("Botão de redirecionamento acionado com sucesso!.");
-    window.location.href = "../pages/conta.html";
+    window.location.href = "../docs/conta.html";
 });
 botaoSignout.addEventListener("click", () => {
     console.log("Botão de redirecionamento acionado com sucesso!.");
-    window.location.href = "../pages/landingpage.html"
+    window.location.href = "../docs/landingpage.html"
 });
