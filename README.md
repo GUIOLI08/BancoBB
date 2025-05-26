@@ -26,8 +26,4 @@ Caso eu queira expandir o projeto, algumas ideias incluem:
 
 ## 📂 Como Executar
 
-Basta copiar e colar a URL no seu navegador: 
-
----
-
-Sinta-se à vontade para modificar e expandir esse README como quiser! 🚀😃
+Basta copiar e colar a URL no seu navegador: https://guioli08.github.io/BancoBB/dashboard.html
