@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --fundo: #FFFFFF; /* Fundo Branco & Contrastar com o preto */
+    --texto-princpal: #000000; /* Preto para os textos */
+    --titulos-destaques: #FFD700; /* Dourado para Títulos e Links */
+    --botoes: #000000; /* Preto para botões primários e cor branca dos textos */
+    --botoes-secudarios: #B8860B; /* Dourado escuro para botões secudários e cor preta dos textos */
+    --cinza: #2f2f2fbc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+body{
+    display: flex;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--fundo);
+}
+.header-main{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    width: 1540px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.131);
+    padding: 20px 50px;
+    justify-content: space-between
+}
+.header h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f0f0f0;
+    padding: 0px 20px;
+    border-radius: 8px;
+}
+.search-container i{
+    color: gray;
+}
+#search{
+    border: none;
+    background-color: #f0f0f0;
+    width: 320px;
+    height: 60px;
+    padding: 0px 4px 0px 0px;
+    font-size: 16px;
+}
+#search::placeholder{
+    opacity: 0.5;
+}
+#search:focus{
+    outline: none;
+}
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.notification svg{
+    height: 32px;
+    width: 32px;
+    fill: gray;
+}
+.notification:hover, .notification:hover svg{
+    background-color: var(--botoes);
+    fill: var(--botoes-secudarios);
+}
+#icon-notification{
+    display: none;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.user img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.username p:first-child{
+    font-size: 18px;
+    font-weight: 500;
+}
+.username p:not(:first-child) {
+    font-size: 12px;
+    color: gray;
+    font-weight: 300;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    width: 20%;
+    height: 100;
+    padding: 30px 40px 40px 25px;
+    justify-content: space-between;
+}
+.nav-bar-barra-lateral{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.logo{
+    width: 90px;
+}
+.settings{
+    display: flex;
+    align-items: center;
+    background-color: var(--cinza);
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    gap: 20px;
+}
+.settings p{
+    color: var(--fundo);
+    font-size: 18px;
+    font-weight: 400;
+}
+.settings svg{
+    fill: #B8860B;
+    height: 38px;
+    width: 38px;
+}
+.payments{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    gap: 20px;
+}
+.payments p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+.payments svg{
+    fill: gray;
+    height: 38px;
+    width: 38px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    gap: 20px;
+}
+.cards p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cards svg{
+    fill: gray;
+    height: 38px;
+    width: 38px;
+}
+.dashboard-overview{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    gap: 20px;
+}
+.dashboard-overview p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+.dashboard-overview svg{
+    fill: gray;
+    height: 38px;
+    width: 38px;
+}
+.account{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    gap: 20px;
+}
+.account p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+.account svg{
+    fill: gray;
+    height: 38px;
+    width: 38px;
+}
+.signout{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    gap: 20px;
+}
+.signout p{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+.signout svg{
+    fill: gray;
+    height: 38px;
+    width: 38px;
+}
+.payments:hover, 
+.cards:hover, 
+.dashboard-overview:hover, 
+.account:hover, 
+.signout:hover{
+    background-color: var(--cinza);
+}
