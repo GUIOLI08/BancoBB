@@ -26,4 +26,4 @@ Caso eu queira expandir o projeto, algumas ideias incluem:
 
 ## 📂 Como Executar
 
-Basta copiar e colar a URL no seu navegador: https://guioli08.github.io/BancoBB/dashboard.html
+Basta copiar e colar a URL no seu navegador: https://bancobb.netlify.app/pages/dashboard.html
